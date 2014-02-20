@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var toRegexp = require('path-to-regexp');
+var toRegexp = require('component-path-to-regexp');
 
 /**
  * Expose `Route`.

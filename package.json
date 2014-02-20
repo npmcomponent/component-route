@@ -1,6 +1,5 @@
 {
-  "name": "route-component",
-  "repo": "component/route",
+  "name": "component-route",
   "description": "Route implementation for client-side routers",
   "version": "0.2.0",
   "keywords": [
@@ -9,18 +8,7 @@
     "routing"
   ],
   "dependencies": {
-    "path-to-regexp": "0.0.2"
+    "component-path-to-regexp": "git://github.com/npmcomponent/component-path-to-regexp.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "better-assert": "*"
-  },
-  "license": "MIT",
-  "scripts": [
-    "index.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/route.git"
-  }
+  "license": "MIT"
 }
